@@ -1,4 +1,5 @@
-# brutk
+# brutk 
+
 This program will brute force any Instagram account 
 # Requirements 
 
@@ -10,6 +11,8 @@ proxy list
 # Installation 
 
 git clone https://github.com/Khalidhusain786/brutk.git
+
+cd brutk 
 
 
 pip install pipenv  

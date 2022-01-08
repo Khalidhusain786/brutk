@@ -3,32 +3,51 @@ This program will brute force any Instagram account
 # Requirements 
 
 Python v3.9
+
+
 proxy list 
 
 # Installation 
 
-pip install pipenv 
+pip install pipenv  
+ 
+ 
 pipenv --python 3.9 
+
+
 pipenv install 
 
+
+
 # Help 
+
+
 
 usage: instagram.py [-h] [-u USERNAME] [-p PASSLIST] [-px PROXYLIST] [--prune PRUNE] [--stats] [-nc] [-m MODE]
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            show this help message and exit 
+  
   -u USERNAME, --username USERNAME
-                        email or username
-  -p PASSLIST, --passlist PASSLIST
-                        password list
+                        email or username 
+                        
+  -p PASSLIST, --passlist PASSLIST 
+                        password list 
+                        
   -px PROXYLIST, --proxylist PROXYLIST
-                        proxy list
-  --prune PRUNE         prune the database
-  --stats               get statistics of the proxies
-  -nc, --no-color       disable colors
+                        proxy list 
+                        
+  --prune PRUNE         prune the database 
+  
+  --stats               get statistics of the proxies 
+  
+  -nc, --no-color       disable colors 
+  
   -m MODE, --mode MODE  modes: 0 => 32 bots; 1 => 16 bots; 2 => 8 bots; 3 => 4 bots 
   
-  # Upload Proxy 
+
+
+# Upload Proxy 
   
   3.238.111.248:80
 
@@ -45,9 +64,13 @@ optional arguments:
 
 To upload a list of proxies a similar syntax must be followed.  
 
+
+
 python instagram.py -px <path to proxy list>  
   
- # Stats 
+
+  
+  # Stats 
   
   
 

@@ -71,7 +71,36 @@ python instagram.py -px <path to proxy list>
 
   
   # Stats 
-  
+ 
+ This gives an insight into the health of the proxies in the database.
+ 
+ 
+ python instagram.py --stats 
+ 
+ 
+ 
+  # Prune 
+ 
+ 
+ This allows the able to get rid of proxies with a score below a given score.
+
+It is recommended that you run the --stats and prune the database of proxies 
+ 
+ 
+ 
+python instagram.py --prune 0.05
+
+ 
+ 
+Pruning is not a requirement because the
+
+the system will automatically learn which proxies perform poorly and stop using them.
+ 
+ 
+ # Usage 
+ 
+ python instagram.py -u <username> -p <passlist>
+
   
 
 

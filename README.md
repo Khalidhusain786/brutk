@@ -110,7 +110,7 @@ the system will automatically learn which proxies perform poorly and stop using 
  
  # Usage 
  
- python instagram.py -u <username> -p <passlist>
+ python instagram.py -u <username> -p <passlist> -px (proxylist) -m (mode)
 
   
 # Run 

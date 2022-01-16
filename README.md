@@ -24,6 +24,9 @@ pipenv --python 3.9
 pipenv install 
 
 
+pipenv shell 
+
+
 
 # Upload Proxy 
   
